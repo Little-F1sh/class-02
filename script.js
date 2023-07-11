@@ -95,20 +95,36 @@
 
 //---------------------------solving-------------------------------------
 
-function smallestNumber(numberOfArray) {
+// function smallestNumber(numberOfArray) {
 
-    let smallest = numberOfArray[0];
+//     let smallest = numberOfArray[0];
 
-    for (let i = 0; i < numberOfArray.length; i++) {
-        // console.log(numberOfArray[i]);
-        if (numberOfArray[i] < smallest) {
-            smallest = numberOfArray[i];
+//     for (let i = 0; i < numberOfArray.length; i++) {
+//         // console.log(numberOfArray[i]);
+//         if (numberOfArray[i] < smallest) {
+//             smallest = numberOfArray[i];
+//         }
+//     }
+//     return smallest;
+// }
+
+// console.log(smallestNumber([100,200,300,40,50,600,700]));
+
+const names = ["karim", "Rakib", "Nahid", "karim", "Rakib", "Nahid","karim", "Rakib", "Nahid","karim", "Rakib", "Nahid","Rahim", "Sohan"];
+
+function removeDuplicates(array) {
+    
+    const realPerson = [];
+    
+    for(let i = 0; i < array.length; i++) {
+
+        if(realPerson.indexOf(names[i]) == -1) {
+
         }
-        return smallest;
     }
 }
 
-console.log(smallestNumber([10,20,30,40,50,60,70]));
+
 
 
 
